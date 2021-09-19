@@ -17,7 +17,7 @@ router.route( "/login" ).post( login );
 
 router.route( "/forgotpassword" ).post( forgotpassword );
 
-router.route( "/resetpassword/:resetToken" ).post( resetpassword );
+router.route( "/resetpassword/:resetToken" ).put( resetpassword );
 
 
 module.exports = router;
