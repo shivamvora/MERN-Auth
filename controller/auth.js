@@ -2,19 +2,19 @@
 /**
  * for register
  */
-exports.register = ( res, req, next ) => {
+exports.register = ( req, res, next ) => {
     res.send( "Register Route" )
 }
 /**
  * for login
  */
-exports.login = ( res, req, next ) => {
+exports.login = ( req, res, next ) => {
     res.send( "Login Route" )
 }
 /**
  * for forgot password
  */
-exports.forgotpassword = ( res, req, next ) => {
+exports.forgotpassword = ( req, res, next ) => {
     res.send( "Forgot Password Route" )
 }
 
@@ -22,6 +22,6 @@ exports.forgotpassword = ( res, req, next ) => {
  * for reset password
  */
 
-exports.resetpassword = ( res, req, next ) => {
+exports.resetpassword = ( req, res, next ) => {
     res.send( "Reset Password Route" )
 }
